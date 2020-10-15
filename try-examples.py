@@ -7,6 +7,8 @@ import warnings
 
 import graphviz  # noqa: F401
 
+#graphviz.set_default_format('svg')
+
 os.chdir('examples')
 
 for filename in glob.iglob('*.py'):
